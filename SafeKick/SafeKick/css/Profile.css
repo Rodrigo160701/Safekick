@@ -1,0 +1,101 @@
+body {
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container {
+  width: calc(100% - 10px);
+  margin: 19px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-text {
+  color: rgb(76, 175, 80);
+  font-size: 16px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.info-container {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.icon-active {
+  color: #4caf50;
+}
+
+.icon-inactive {
+  color: #9ca3af;
+}
+
+.save-button {
+  width: 200px;
+  background-color: #4caf50;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.save-button:hover {
+  background-color: #4caf50;
+}
+
+
